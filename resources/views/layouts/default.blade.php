@@ -33,17 +33,15 @@
 				</li>
                 @yield('breadcrumb')
             </ul>
-
         </div>
-
-        <div class="row">
-            @include('includes.footer')
-        </div>
-
     </div>
-
-
 </div>
+
+<footer class="bg-dark">
+    <div class="container">
+        @include('includes.footer')
+    </div>
+</footer>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
