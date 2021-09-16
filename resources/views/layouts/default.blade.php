@@ -39,7 +39,7 @@
 
 <footer class="bg-dark">
     <div class="container">
-        @include('includes.footer')
+        <div class="ml-167">@include('includes.footer')</div>
     </div>
 </footer>
 
