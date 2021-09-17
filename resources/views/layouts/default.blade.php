@@ -10,7 +10,7 @@
 @include('includes.navbar')
 
 <div class="container">
-    <div class="row">
+    <div class="row"> <!-- justify-content: center; toegevoegd bij .row om de Container in het midden uit te lijnen --> 
 
         <div class="col-md-8">
             @include('includes.header')
@@ -38,8 +38,8 @@
 </div>
 
 <footer class="bg-dark">
-    <div class="container">
-        <div class="ml-167">@include('includes.footer')</div>
+    <div class="container"> 
+        <div>@include('includes.footer')</div> <!-- FOOTER links uitgelijnd  -->
     </div>
 </footer>
 
