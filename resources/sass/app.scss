@@ -64,3 +64,9 @@ footer{
 .brands-color li{
     margin-bottom: 2rem;
 }
+
+.type-grid ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
