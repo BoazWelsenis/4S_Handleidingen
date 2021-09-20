@@ -1,15 +1,17 @@
 @extends('layouts.default')
 
 @section('introduction_text')
+    <p>Hallo, {{ $name }}</p>
+
     <p>{{ __('introduction_texts.homepage_line_1') }}</p>
     <p>{{ __('introduction_texts.homepage_line_2') }}</p>
     <p>{{ __('introduction_texts.homepage_line_3') }}</p>
 @endsection
 
 @section('content')
-
     <h1>
         @section('title')
+            <h1>Welkom {{ $name }}</h1>
             {{ __('misc.all_brands') }}
         @show
     </h1>
