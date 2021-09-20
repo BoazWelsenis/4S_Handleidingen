@@ -30,3 +30,37 @@
     color: #ccc;
     content: "/\00a0";
 }
+
+/* EIGEN CSS VOOR FOOTER: */
+.container a, .container p{
+    font-size: 22px;
+    font-weight: bold;
+}
+footer{
+    color: white;
+    padding: 1.5rem 0;
+    margin-top: auto;
+    font-size: 20px;
+}
+
+/* EIGEN CSS VOOR ACHTERGROND BRANDS */
+.row{
+    justify-content: center;
+}
+.brands-color{
+    background-color: #e9ecef;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+.brands-color a{
+    background-color: #4D90FE;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.brands-color a:hover{
+    color: white;   
+}
+.brands-color li{
+    margin-bottom: 2rem;
+}

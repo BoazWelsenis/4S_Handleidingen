@@ -11,7 +11,6 @@
 @section('content')
     <h1>
         @section('title')
-            <h1>Welkom {{ $name }}</h1>
             {{ __('misc.all_brands') }}
         @show
     </h1>
