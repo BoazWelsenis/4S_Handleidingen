@@ -31,7 +31,7 @@
     content: "/\00a0";
 }
 
-/* EIGEN CSS VOOR FOOTER: */
+/* FOOTER */
 .container a, .container p{
     font-size: 22px;
     font-weight: bold;
@@ -74,7 +74,7 @@ footer{
     justify-content: space-between;
 }
 
-/* EIGEN CSS VOOR ACHTERGROND BRANDS */
+/* CENTREREN CONTAINER + ACHTERGROND BRANDS */
 .row{
     justify-content: center;
 }
@@ -96,13 +96,14 @@ footer{
     margin-bottom: 2rem;
 }
 
+/* GRID TYPES (BRAND PAGINA) */
 .type-grid ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
-/* EIGEN CSS VOOR DOWNLOAD BUTTON */
+/* DOWNLOAD BUTTON */
 .download-btn{
     background-color: #357AE8;
     box-shadow: 6px 15px 32px -3px rgba(0,0,0,0.27);
