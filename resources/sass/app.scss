@@ -74,6 +74,16 @@ footer{
     justify-content: space-between;
 }
 
+/* MEDIA QUERY / BREAKPOINT FOOTER */
+@media(max-width: 960px){
+    .footer-grid{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
 /* CENTREREN CONTAINER + ACHTERGROND BRANDS */
 .row{
     justify-content: center;
